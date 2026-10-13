@@ -1,0 +1,32 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and bytecode
+.venv/
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local databases and vector indexes
+*.db
+*.db-shm
+*.db-wal
+backend/chroma_db/
+backend/chroma_test_db/
+backend/app/chroma_db/
+
+# Uploaded/generated files
+backend/uploads/
+backend/app/uploads/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/

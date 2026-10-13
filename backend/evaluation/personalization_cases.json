@@ -1,0 +1,34 @@
+
+{
+  "difficulty_records": [
+    {"topic": "Arrays", "mastery": 0.25, "served_difficulty": "easy"},
+    {"topic": "Linked Lists", "mastery": 0.55, "served_difficulty": "medium"},
+    {"topic": "Trees", "mastery": 0.90, "served_difficulty": "hard"},
+    {"topic": "Graphs", "mastery": 0.20, "served_difficulty": "medium"}
+  ],
+  "topic_mastery": {
+    "Arrays": 0.25,
+    "Linked Lists": 0.55,
+    "Trees": 0.90,
+    "Graphs": 0.20
+  },
+  "recommended_topics": [
+    "Graphs",
+    "Arrays",
+    "Linked Lists"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the time complexity of binary search?"
+    },
+    {
+      "id": "q2",
+      "question": "Explain the time complexity of binary search."
+    },
+    {
+      "id": "q3",
+      "question": "What is the time complexity of binary search?"
+    }
+  ]
+}

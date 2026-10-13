@@ -1,0 +1,57 @@
+
+[
+  {
+    "case_id": "answer-pdf-001",
+    "answer": "Breadth-first search explores graph vertices level by level using a queue.",
+    "context": "Breadth-first search traverses a graph level by level. It commonly uses a queue to process discovered vertices.",
+    "reference_answer": "Breadth-first search visits vertices level by level using a queue.",
+    "citations": [
+      {
+        "source_id": "graph-notes",
+        "source_type": "pdf",
+        "page": 12
+      }
+    ],
+    "known_source_ids": ["graph-notes"],
+    "context_required": true,
+    "citations_required": true
+  },
+  {
+    "case_id": "answer-abstention-001",
+    "answer": "I cannot determine this from the provided material.",
+    "context": "The retrieved passage describes arrays but does not discuss recursion.",
+    "citations": [],
+    "context_required": true,
+    "citations_required": false,
+    "expect_abstention": true
+  },
+  {
+    "case_id": "answer-pptx-001",
+    "answer": "Time complexity describes how algorithm execution time grows with input size.",
+    "context": "Algorithm analysis. Time complexity describes how execution time grows with input size.",
+    "citations": [
+      {
+        "source_id": "dsa-slides",
+        "source_type": "pptx",
+        "slide": 8
+      }
+    ],
+    "known_source_ids": ["dsa-slides"],
+    "context_required": true,
+    "citations_required": true
+  },
+  {
+    "case_id": "answer-video-invalid-citation",
+    "answer": "The instructor explains recursion in the lecture.",
+    "context": "The lecture discusses recursion.",
+    "citations": [
+      {
+        "source_id": "lecture-video",
+        "source_type": "video"
+      }
+    ],
+    "known_source_ids": ["lecture-video"],
+    "context_required": true,
+    "citations_required": true
+  }
+]

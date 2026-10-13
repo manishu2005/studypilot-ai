@@ -1,0 +1,25 @@
+
+[
+  {
+    "case_id": "retrieval-bfs",
+    "question": "Explain breadth-first search and the data structure it uses.",
+    "top_k": 5,
+    "relevant_source_names": [
+      "replace-with-your-actual-graph-notes-filename.pdf"
+    ],
+    "expected_terms": ["breadth", "queue"],
+    "minimum_precision": 0.2,
+    "minimum_term_coverage": 0.5
+  },
+  {
+    "case_id": "retrieval-complexity",
+    "question": "Explain time complexity and algorithm growth rates.",
+    "top_k": 5,
+    "relevant_source_names": [
+      "replace-with-your-actual-algorithms-filename.pptx"
+    ],
+    "expected_terms": ["complexity", "algorithm"],
+    "minimum_precision": 0.2,
+    "minimum_term_coverage": 0.5
+  }
+]

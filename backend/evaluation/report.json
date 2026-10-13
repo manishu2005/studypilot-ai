@@ -1,0 +1,102 @@
+{
+  "dataset": "test_cases.json",
+  "total_cases": 3,
+  "passed_cases": 2,
+  "failed_cases": 1,
+  "pass_rate": 0.6667,
+  "results": [
+    {
+      "case_id": "pdf-001",
+      "checks": {
+        "retrieval_has_relevant_result": true,
+        "answer_not_empty": true,
+        "citation_structure_valid": true
+      },
+      "passed": true,
+      "retrieval": {
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "relevant_hits": 1,
+        "retrieved_count": 2,
+        "expected_relevant_count": 1
+      },
+      "answer_signals": {
+        "answer_token_count": 10,
+        "context_token_count": 15,
+        "answer_context_overlap": 0.7,
+        "empty_answer": false,
+        "empty_context": false,
+        "reference_token_recall": 0.8889
+      },
+      "citations": {
+        "citation_count": 1,
+        "valid_citation_count": 1,
+        "citation_validity_rate": 1.0,
+        "malformed_citation_indices": [],
+        "unknown_source_indices": []
+      }
+    },
+    {
+      "case_id": "video-001",
+      "checks": {
+        "retrieval_has_relevant_result": true,
+        "answer_not_empty": true,
+        "citation_structure_valid": true,
+        "abstention_signaled": false
+      },
+      "passed": false,
+      "retrieval": {
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "relevant_hits": 0,
+        "retrieved_count": 1,
+        "expected_relevant_count": 0
+      },
+      "answer_signals": {
+        "answer_token_count": 12,
+        "context_token_count": 8,
+        "answer_context_overlap": 0.0833,
+        "empty_answer": false,
+        "empty_context": false
+      },
+      "citations": {
+        "citation_count": 0,
+        "valid_citation_count": 0,
+        "citation_validity_rate": 0.0,
+        "malformed_citation_indices": [],
+        "unknown_source_indices": []
+      }
+    },
+    {
+      "case_id": "pptx-001",
+      "checks": {
+        "retrieval_has_relevant_result": true,
+        "answer_not_empty": true,
+        "citation_structure_valid": true
+      },
+      "passed": true,
+      "retrieval": {
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "relevant_hits": 1,
+        "retrieved_count": 1,
+        "expected_relevant_count": 1
+      },
+      "answer_signals": {
+        "answer_token_count": 11,
+        "context_token_count": 11,
+        "answer_context_overlap": 0.2727,
+        "empty_answer": false,
+        "empty_context": false,
+        "reference_token_recall": 0.8889
+      },
+      "citations": {
+        "citation_count": 1,
+        "valid_citation_count": 1,
+        "citation_validity_rate": 1.0,
+        "malformed_citation_indices": [],
+        "unknown_source_indices": []
+      }
+    }
+  ]
+}

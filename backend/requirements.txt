@@ -1,0 +1,17 @@
+fastapi #python web framework used to run backend server
+uvicorn[standard] # async python framework
+python-multipart #Streaming parser; required by FastAPI for UploadFile / Form
+pymupdf #engine for reading, rendering, editing, and converting PDFs 
+chromadb #vector database for storing, indexing, and querying embeddings
+sentence-transformers #Python framework for computing, training, and evaluating embedding and reranker models
+pydantic-settings  #type-safe configuration management
+python-dotenv #library for loading key-value pairs
+pytest #standard Python testing framework
+httpx #next-generation HTTP client for Python 3
+httpx2
+python-pptx #Python library for creating and updating PowerPoint (.pptx) files
+pillow # Image Manipulation: Resizing, cropping, rotating, and pasting images.
+google-genai #google-genai api
+faster-whisper==1.2.1 #Faster Whisper is an optimized, open-source reimplementation of OpenAI's Whisper speech recognition model 
+rank-bm25 #ranking algorithm used in information retrieval systems to determine how relevant a document is to a given search query
+av>=11,<19
